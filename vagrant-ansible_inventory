@@ -1,0 +1,14 @@
+[Kafkas]
+hired.vagrant-local.com ansible_ssh_host=127.0.0.1 ansible_ssh_port=2230 ansible_ssh_user=vagrant ansible_ssh_pass=vagrant broker_id=0
+
+[KafkaZookeepers]
+hired.vagrant-local.com ansible_ssh_host=127.0.0.1 ansible_ssh_port=2230 ansible_ssh_user=vagrant ansible_ssh_pass=vagrant zoo_id=1
+
+[Tors]
+hired.vagrant-local.com ansible_ssh_host=127.0.0.1 ansible_ssh_port=2230 ansible_ssh_user=vagrant ansible_ssh_pass=vagrant
+
+[Pythons]
+hired.vagrant-local.com ansible_ssh_host=127.0.0.1 ansible_ssh_port=2230 ansible_ssh_user=vagrant ansible_ssh_pass=vagrant
+
+[Gits]
+hired.vagrant-local.com ansible_ssh_host=127.0.0.1 ansible_ssh_port=2230 ansible_ssh_user=vagrant ansible_ssh_pass=vagrant
